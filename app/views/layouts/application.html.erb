@@ -7,6 +7,9 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <!-- Video.js -->
+    <link href="https://vjs.zencdn.net/7.6.0/video-js.css" rel="stylesheet">
   </head>
 
   <body>
@@ -53,5 +56,8 @@
       <%= link_to 'Create a Course', new_instructor_course_path %>
     </div>
   </div>
+  <script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
   </body>
 </html>
