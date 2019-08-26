@@ -99,3 +99,6 @@ gem 'ranked-model'
 
 # jQuery UI Rails
 gem 'jquery-ui-rails'
+
+# Font Awesome
+gem 'font-awesome-rails'
