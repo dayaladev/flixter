@@ -18,7 +18,6 @@
   $(function() {
     $('.sections').sortable({
       update: function( event, ui ){
-        alert('url: ' + ui.item.data('section-update-url') + ' index: ' + ui.item.index());
         $.ajax({
           type: 'PUT',
           url: ui.item.data('section-update-url'),
